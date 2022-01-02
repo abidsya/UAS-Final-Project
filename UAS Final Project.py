@@ -94,7 +94,8 @@ def configPaper5():
     tk.Label(inputWindow5, text="Number : ").grid(row=0, column=0, sticky=tk.W)
     inputB2.grid(row=0, column=1, sticky=tk.N+tk.E+tk.S+tk.W)
 
-    tk.Button(inputWindow5, text="Save Changes", command=saveInput5)
+    tk.Button(inputWindow5, text="Save Changes", command=saveInput5).grid(row=2, column=0, columnspan=2, padx=20, pady=5, sticky=tk.E+tk.W)
+
 
 def naik():
     global penambahan1
